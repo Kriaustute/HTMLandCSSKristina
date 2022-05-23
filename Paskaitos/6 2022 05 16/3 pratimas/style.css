@@ -1,0 +1,2 @@
+h1::after {color: red; content: "labas";}
+H1::before {color: red; content: "viso";}

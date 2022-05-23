@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <form action="/submit" method="POST" target="_blank" autocomplete="on" novalidate>
+    <h1>Creat an acount</h1>
+    <input type="hidden" value="1234"/>
+    <label for="emailInput">Email:</label>
+    <input type="email" id="Emailinput" required autofocus/> <br/> <br/>
+    <label for="passwordInput">Password:</label>
+    <input type="password" id="paswordInput" required min="8" max="22"/> <br/> <br/>
+    <label for="ageInput">Age:</label>
+<select required name="select">
+    <option value="18">18</option>
+    <option value="25">25</option>
+    <option value="35">35</option>
+    <option value="45">45</option>
+    <option value="55">55</option>
+</select>
+<br/>
+<br/>
+<label for="aboutInput">Tell us a little about yourself:</label> <br/>
+<textarea type="checkbox" name="aboutInput" id="aboutInput" cols="30" rows="5" maxlenght="200"></textarea>
+<br/>
+<br/>
+<input type="checkbox" id="agreeInput"/>
+<label for="agreeInput">I agree to the <a target="_blank" href="https://www.iubenda.com/en/terms-and-conditions-generator?utm_source=adwords&utm_medium=ppc&utm_campaign=general_exact_row&utm_term=terms%20of%20service&utm_content=598015402732&gclid=EAIaIQobChMIntuj3u7m9wIVjN4YCh1-egYPEAAYAiAAEgLdZfD_BwE" >terms of service.</a></label>
+<br/>
+<br/>
+<input type="submit" value="Sign up" required/>
+</form>
+</body>
+</html>

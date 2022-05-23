@@ -1,0 +1,23 @@
+body {}
+    margin:0;
+    padding: 0;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+header nav li {
+    display: inline;
+}
+
+.paragraph {
+
+    text align: center;
+    margin-top: 3cm;
+    width: 70%;
+}

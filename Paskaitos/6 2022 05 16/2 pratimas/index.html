@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <p>all fields are optional unless marked</p>
+    <label for="readonly">Are you read only?</label>
+    <br />
+    <input id="readonly" readonly type="" value="Read only" />
+    <br />
+    <label for="name">Name</label> <br />
+    <input required type="text" id="name" /> <br />
+    <label for="email">Email (optional)</label> <br />
+    <input type="email" id="email" /> <br />
+    <label for="age">Age:</label>
+    <input type="number" min="18" max="65" /> <br />
+    <label for="comments">Comments:</label> <br />
+    <input required type="text" class="comments" /> <br />
+    <input type="checkbox" id="agreeWithTerms" name="agreeWithTerms" />
+    <label for="agreeWithTerms">I agree with terms and conditions</label> <br />
+    <input type="button" id="send-button" value="Send Comments" />
+    
+</body>
+</html>
