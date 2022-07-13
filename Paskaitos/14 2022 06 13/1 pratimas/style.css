@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    width: 100vw;
+}
+a {
+    text-align: center;
+    padding-bottom: 5 px;
+    }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: conter;
+}
+.banner {
+    height: 150px;
+    background-color: green;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+}
+
+@media only screen and (min-width: 700px) {
+.flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.grid-container {
+    grid-template-columns: repeat(4, 1fr);
+}
+}
+.main {
+    background-color: beige;
+}

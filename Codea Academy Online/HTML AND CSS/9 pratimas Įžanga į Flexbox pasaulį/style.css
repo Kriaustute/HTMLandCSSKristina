@@ -1,0 +1,114 @@
+body {background-image: url(tapetas.png);}
+
+.LOGO {
+    max-width: 180px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    align-items:center;
+    margin-bottom: 15px;
+    background-color: rgb(140, 207, 16);
+    padding: 30px;
+    color: rgb(46, 27, 4);
+}
+
+ 
+ .linkas {
+     color: rgb(53, 32, 7);
+ }
+
+
+ .wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+ }
+
+ main{
+    background-color: white;
+    display: flex;
+    padding: 30px;
+    text-align: right;
+    width: 100%;
+}
+
+main section :not(a){
+    text-align: justify;
+}
+
+h2:before{
+    content: "\269d";
+    padding-right: 5px;
+}
+
+section:first-child{
+    flex: 2;
+}
+
+section:last-child{
+    flex: 3;
+    margin-left: 20px;
+    display: flow;
+}
+
+main img {
+    width: 200px;
+    float: left;
+}
+#contacts ul{
+    list-style: none;
+    padding: 0;
+    line-height: 1.5em;
+    color: blue;
+}
+.services {
+    display: flex;
+    align-content: flex-start;
+}
+#contacts li:nth-child(1):before{
+    content: "\0260F";
+    color: black;
+    padding-right: 10px;
+}
+
+#contacts li:nth-child(2):before{
+    content: "\02709";
+    color: black;
+    padding-right: 10px;
+}
+
+#contacts li:nth-child(3):before{
+    content: "\02656";
+    color: black;
+    padding-right: 10px;
+}
+
+#contacts input:not(.btn), #contacts textarea{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: inline-block;
+    border: 0;
+    background-color: #b8cb21;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+footer{
+    color: #3b4205;
+    text-align: center;
+    padding: 10px 0;
+}

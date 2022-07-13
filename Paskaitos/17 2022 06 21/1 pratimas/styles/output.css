@@ -1,0 +1,21 @@
+/* Error: Only 1 argument allowed, but 2 were passed.
+ *     ,
+ * 11  |     @mixin flexcenter ($flexdirection) {
+ *     |            =========================== declaration
+ * ... |
+ * 19  |     @include flexcenter(column, center);
+ *     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
+ *     '
+ *   index.scss 19:5  flexcenter()
+ *   index.scss 19:5  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Only 1 argument allowed, but 2 were passed.\a     \2577 \a 11  \2502      @mixin flexcenter ($flexdirection) {\d\a     \2502             \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a... \2502 \a 19  \2502      @include flexcenter(column, center);\d\a     \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a     \2575 \a   index.scss 19:5  flexcenter()\a   index.scss 19:5  root stylesheet";
+}

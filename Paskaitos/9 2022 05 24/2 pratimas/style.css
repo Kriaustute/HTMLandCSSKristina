@@ -1,0 +1,42 @@
+.LOGO {
+    max-width: 50px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+div a {
+    padding-right: 15px;}
+
+main {
+    border-radius: 3px;
+    background-image: url(./lentynos.jpeg);
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+section {
+    border-radius: 3px;
+    width:80%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+   }
+ section p img {
+     width: 15%;
+     float: left;
+     padding: 10px;
+ }
+ .footer_text {    
+     text-align: center;
+ }
+
+
+

@@ -1,0 +1,24 @@
+$buttonColor: yellow; 
+$buttonfont: arial;
+
+.hello {
+    background-color: $buttonColor;
+    font-family: $buttonfont;
+}
+
+@import './navigation.scss';
+
+    @mixin flexcenter ($flexdirection) {
+        display: flex;
+        flex-direction: $flexdirection;
+        justify-content: center;
+        align-items: center;
+   }
+  
+   nav {
+    @include flexcenter(column, center);
+   }
+
+
+
+
